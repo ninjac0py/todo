@@ -19,7 +19,9 @@
     "@angular/platform-browser": "~8.1.1",
     "@angular/platform-browser-dynamic": "~8.1.1",
     "@angular/router": "~8.1.1",
+    "@sweetalert2/ngx-sweetalert2": "^5.1.0",
     "rxjs": "~6.4.0",
+    "sweetalert2": "^8.15.2",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
   },

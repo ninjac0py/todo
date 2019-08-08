@@ -1,0 +1,14 @@
+<div class="card mt-3">
+    <div class="p-3 " style="display: flex; justify-content: space-between;">
+     <h5>{{title}}</h5>
+     <button (click)="delete()" style="border: none; background-color: transparent;">
+        <i class="material-icons" style="color: red;">delete</i>
+     </button>     
+    </div>
+    <div style="width: 94%; margin: 0 auto;"><hr></div>
+    <div class="card-body">
+      <p class="card-text">
+        {{description}}
+      </p>
+    </div>
+</div>

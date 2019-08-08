@@ -1,0 +1,7 @@
+<div class="alert alert-dark " style="color: #f2f2f2; font-weight: bold;  background-color: plum !important; min-width: 80vw; margin: 0 auto !important;" role="alert">
+    Todo List
+</div>
+<app-todo *ngFor="let todo of todos" [id]="todo.id" (onDelete)="deleteTodo($event)" [title]="todo.name" [description]="todo.description"></app-todo>
+
+<app-add-todo (onAdd)="add($event)"></app-add-todo>
+
