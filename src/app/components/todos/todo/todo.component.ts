@@ -10,7 +10,7 @@ export class TodoComponent implements OnInit {
   @Input() title:string;
   @Input() description:string;
   @Input() id:string;
-  @Output() onDelete: EventEmitter<number> = new EventEmitter();
+  @Output() onDelete: EventEmitter<string> = new EventEmitter();
   constructor() { }
 
   ngOnInit() {
